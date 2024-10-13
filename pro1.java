@@ -1,9 +1,14 @@
 class pro1{
-    public int strStr(String s, String a) {
-        if(s.contains(a)){
+    public static void main(String arg[]){
+        Scanner sc = new Scanner(System.in);
+        string s = sc . nextLine();
+        String a = sc . nextLine();
+            if(s.contains(a)){
             return s.indexOf(a);
         }
         return -1;
 
     }
+    
+
 }
